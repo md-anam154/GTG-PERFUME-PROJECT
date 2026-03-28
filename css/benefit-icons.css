@@ -1,0 +1,21 @@
+/* Benefit Checkmark Icons - Matches original SVG gradient */
+.benefit-check {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  background: linear-gradient(180deg, #032E15 0%, #016630 100%);
+  color: white;
+  border-radius: 3px;
+  font-size: 10px;
+  font-weight: bold;
+  margin-right: 8px;
+  flex-shrink: 0;
+}
+
+/* Hover effect */
+.benefits-list li:hover .benefit-check {
+  background: linear-gradient(180deg, #016630 0%, #00C950 100%);
+}
+
